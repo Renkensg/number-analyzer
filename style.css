@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+html {
+  --s: 60px; /* control the size */
+
+  --_g: #0000 83%, #b09f79 85% 99%, #0000 101%;
+  background: radial-gradient(27% 29% at right, var(--_g)) calc(var(--s) / 2)
+      var(--s),
+    radial-gradient(27% 29% at left, var(--_g)) calc(var(--s) / -2) var(--s),
+    radial-gradient(29% 27% at top, var(--_g)) 0 calc(var(--s) / 2),
+    radial-gradient(29% 27% at bottom, var(--_g)) 0 calc(var(--s) / -2) #476074;
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
+
+body {
+  font: normal 15pt Arial;
+}
+
+header {
+  color: aliceblue;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+section {
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.289);
+}
+
+#value {
+  width: 150px;
+}
+
+footer {
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+}
+
+select {
+  width: 150px;
+  height: 150px;
+}
