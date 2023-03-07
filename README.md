@@ -6,6 +6,7 @@
 
 ## 🤖 Tecnologias
 
+- JavaScript
 - HTML
 - CSS
 - Git e GitHub
